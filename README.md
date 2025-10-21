@@ -38,6 +38,16 @@ pip install -r requirements.txt
 python collect_dogecoin_futures.py
 ```
 
+### 샘플 데이터 생성
+
+실제 API를 호출하지 않고 샘플 데이터를 생성하여 데이터 형식을 확인할 수 있습니다:
+
+```bash
+python generate_sample_data.py
+```
+
+이 명령은 최근 30일간의 1시간 간격 샘플 데이터를 `data/DOGEUSDT_1h_sample.csv` 파일로 생성합니다.
+
 ### 설정 변경
 
 `config.py` 파일을 수정하여 설정을 변경할 수 있습니다:
